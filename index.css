@@ -94,7 +94,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .day__person, .day__empty {
-    padding: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,6 +147,26 @@ p, h1, h2, h3, h4, h5, h6 {
     color: black
 }
 
+@media only screen and (max-width: 600px) {
+    .card-container, .user-container {
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    .card-section {
+        margin-bottom: 30px;
+    }
+
+    .user-container {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .user-input {
+        margin: 20px 0px 0px 0px
+    }
+}
 
 
 
